@@ -19,6 +19,7 @@ fetch(`yourBackend/api/search?{q}`,{otherStuff}) //etc...etc...
 query to arr 
 * get the query string
 * then:
+
 ``` const arr = toArr(query)
 ```
 <br\>
