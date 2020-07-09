@@ -22,7 +22,9 @@ const arr = toArr(query)
 ```
 
 <br/>
+
 ## License
+
 ### MIT
 
 
