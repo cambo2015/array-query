@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+
+<body>
+  <p id="text"> nothing here</p>
+  
+  <script src="./app.js"></script>
+  <script type="module">
+  import {toQuery,toArr} from "./app.js"
+    const arr = [1, 2, 3, 4, 5]
+    const query = toQuery(arr)
+    document.getElementById("text").innerText = query
+    console.log(toArr(query))
+  </script>
+</body>
+
+</html>
