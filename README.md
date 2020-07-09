@@ -6,6 +6,6 @@
 
 #### EXAMPLE:
 
-const arr = [2,4,6,8] 
+``` const arr = [2,4,6,8] 
 const q = toQuery(arr)
-fetch(`yourBackend/api/search?&{q}`,{otherStuff}) //etc...etc...
+fetch(`yourBackend/api/search?{q}`,{otherStuff}) //etc...etc... ```
