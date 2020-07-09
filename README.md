@@ -22,7 +22,7 @@ query to arr
 * const arr = toArr(query)
 
 <br/>
-## License:
+## License
 ### MIT
 
 
