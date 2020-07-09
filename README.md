@@ -20,8 +20,8 @@ query to arr
 * get the query string
 * then:
 
-``` const arr = toArr(query)
-```
+const arr = toArr(query)
+
 <br\>
 ## License MIT
 
