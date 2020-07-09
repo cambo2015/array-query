@@ -1,7 +1,7 @@
 
 
-export const toQuery = (s) => {
-  const x = JSON.stringify(s)
+export const toQuery = (arr) => {
+  const x = JSON.stringify(arr)
   return encodeURIComponent(x)
 }
 
