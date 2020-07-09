@@ -8,15 +8,16 @@
 </head>
 
 <body>
-  <p id="text"> nothing here</p>
+  <p id="query"> nothing here</p>
+  <p id="arr">nothing here</p>
   
-  <script src="./app.js"></script>
+ 
   <script type="module">
   import {toQuery,toArr} from "./app.js"
-    const arr = [1, 2, 3, 4, 5]
+    const arr = ["cool Cat", 2, 3.5, 4, 5]
     const query = toQuery(arr)
-    document.getElementById("text").innerText = query
-    console.log(toArr(query))
+    document.getElementById("query").innerText = query
+    document.getElementById("arr").innerText= toArr(query)
   </script>
 </body>
 
