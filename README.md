@@ -1,8 +1,8 @@
 # array-query
 
-### Add an array to a query! 
-### Parse an array from a query!
+### Convert an array to a query string!
 * toQuery(arr:any[])->string
+### Convert it back to an array
 * toArr(query:string[])->any[]
 
 #### EXAMPLE:
