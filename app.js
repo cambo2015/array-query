@@ -5,7 +5,7 @@ export const toQuery = (arr) => {
   return encodeURIComponent(x)
 }
 
-export const toObj = (q) => {
+export const toArr = (q) => {
   const x = decodeURIComponent(q)
   return JSON.parse(x)
 }
